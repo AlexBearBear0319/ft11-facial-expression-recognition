@@ -1,0 +1,9 @@
+# Provisional dependencies. Record tested versions after FT11 completes the shared setup check.
+torch
+torchvision
+numpy
+pandas
+Pillow
+scikit-learn
+matplotlib
+jupyter

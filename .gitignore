@@ -1,0 +1,25 @@
+# Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter and local environment files
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+
+# Local datasets and generated files
+data/*
+!data/README.md
+!data/.gitkeep
+checkpoints/
+outputs/
+*.pt
+*.pth
+*.ckpt
+
+# OS and editor files
+.DS_Store
+.vscode/
