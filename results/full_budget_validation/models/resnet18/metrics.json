@@ -1,0 +1,12 @@
+{
+  "evaluation_split": "validation",
+  "metrics": {
+    "accuracy": 0.5398568019093078,
+    "loss": 1.2717585227938997,
+    "macro_f1": 0.4971241655248475
+  },
+  "model_id": "resnet18",
+  "parameters": 11173831,
+  "source_test_evaluated": false,
+  "training_seconds": 121.45624504203442
+}

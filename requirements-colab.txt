@@ -1,0 +1,7 @@
+# Colab already provides PyTorch and torchvision. Keep this file free of them
+# so pip does not replace the runtime's CUDA-enabled packages.
+numpy==2.1.3
+Pillow==11.3.0
+scikit-learn==1.9.1
+matplotlib==3.11.2
+kagglehub==1.0.3

@@ -1,0 +1,95 @@
+{
+  "dataset_source_id": "msambare/fer2013/versions/1",
+  "duplicate_audit_summary": {
+    "conflicting_label_duplicate_groups": 57,
+    "duplicate_groups": 1516,
+    "train_test_duplicate_groups": 506
+  },
+  "label_order": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "sad",
+    "surprise",
+    "neutral"
+  ],
+  "manifest_sha256": "76f42aec6b90ee1b1656d521a4a13656b32c69147631625b683ff0860aa9efc7",
+  "source_counts": {
+    "test": {
+      "classes": {
+        "angry": 958,
+        "disgust": 111,
+        "fear": 1024,
+        "happy": 1774,
+        "neutral": 1233,
+        "sad": 1247,
+        "surprise": 831
+      },
+      "records": 7178
+    },
+    "train": {
+      "classes": {
+        "angry": 3995,
+        "disgust": 436,
+        "fear": 4097,
+        "happy": 7215,
+        "neutral": 4965,
+        "sad": 4830,
+        "surprise": 3171
+      },
+      "records": 28709
+    }
+  },
+  "source_test_evaluated": false,
+  "split_counts": {
+    "excluded": {
+      "classes": {
+        "angry": 131,
+        "disgust": 51,
+        "fear": 127,
+        "happy": 59,
+        "neutral": 55,
+        "sad": 63,
+        "surprise": 290
+      },
+      "records": 776
+    },
+    "test": {
+      "classes": {
+        "angry": 958,
+        "disgust": 111,
+        "fear": 1024,
+        "happy": 1774,
+        "neutral": 1233,
+        "sad": 1247,
+        "surprise": 831
+      },
+      "records": 7178
+    },
+    "train": {
+      "classes": {
+        "angry": 3284,
+        "disgust": 327,
+        "fear": 3374,
+        "happy": 6083,
+        "neutral": 4174,
+        "sad": 4052,
+        "surprise": 2449
+      },
+      "records": 23743
+    },
+    "validation": {
+      "classes": {
+        "angry": 580,
+        "disgust": 58,
+        "fear": 596,
+        "happy": 1073,
+        "neutral": 736,
+        "sad": 715,
+        "surprise": 432
+      },
+      "records": 4190
+    }
+  }
+}

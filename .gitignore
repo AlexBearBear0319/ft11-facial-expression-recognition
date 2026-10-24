@@ -13,13 +13,19 @@ __pycache__/
 # Local datasets and generated files
 data/*
 !data/README.md
-!data/.gitkeep
+!data/manifests/
+data/manifests/*
+!data/manifests/README.md
 checkpoints/
 outputs/
+local_archive/
 *.pt
 *.pth
 *.ckpt
+*.zip
 
 # OS and editor files
 .DS_Store
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json

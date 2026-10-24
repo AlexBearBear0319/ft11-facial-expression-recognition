@@ -1,9 +1,4 @@
-# Provisional dependencies. Record tested versions after FT11 completes the shared setup check.
-torch
-torchvision
-numpy
-pandas
-Pillow
-scikit-learn
-matplotlib
-jupyter
+# Local environment: install the pinned PyTorch release for the current OS.
+-r requirements-colab.txt
+torch==2.11.0
+torchvision==0.26.0

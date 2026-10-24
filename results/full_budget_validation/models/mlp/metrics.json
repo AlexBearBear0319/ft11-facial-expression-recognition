@@ -1,0 +1,12 @@
+{
+  "evaluation_split": "validation",
+  "metrics": {
+    "accuracy": 0.36372315035799524,
+    "loss": 1.6358926410606767,
+    "macro_f1": 0.2699916207897601
+  },
+  "model_id": "mlp",
+  "parameters": 295943,
+  "source_test_evaluated": false,
+  "training_seconds": 36.45996266696602
+}

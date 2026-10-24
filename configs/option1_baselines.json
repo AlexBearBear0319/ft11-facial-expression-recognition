@@ -1,0 +1,21 @@
+{
+  "source_root": "data/fer2013",
+  "source_id": "msambare/fer2013/versions/1",
+  "manifest_path": "outputs/data/fer2013_split_manifest.json",
+  "output_root": "outputs/runs",
+  "split": {
+    "seed": 42,
+    "validation_fraction": 0.15
+  },
+  "training": {
+    "seed": 42,
+    "epochs": 10,
+    "batch_size": 64,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0,
+    "patience": 3,
+    "selection_metric": "validation_macro_f1",
+    "tie_break": "lower_validation_loss"
+  }
+}

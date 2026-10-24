@@ -1,0 +1,12 @@
+{
+  "evaluation_split": "validation",
+  "metrics": {
+    "accuracy": 0.4732696897374702,
+    "loss": 1.3720730841302076,
+    "macro_f1": 0.3737947136026804
+  },
+  "model_id": "cnn",
+  "parameters": 24115,
+  "source_test_evaluated": false,
+  "training_seconds": 37.9370530419983
+}
